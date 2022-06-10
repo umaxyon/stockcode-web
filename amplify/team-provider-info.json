@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-stockcodeweb-dev-205816-authRole",
+      "UnauthRoleArn": "arn:aws:iam::007575903924:role/amplify-stockcodeweb-dev-205816-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::007575903924:role/amplify-stockcodeweb-dev-205816-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-stockcodeweb-dev-205816-deployment",
+      "UnauthRoleName": "amplify-stockcodeweb-dev-205816-unauthRole",
+      "StackName": "amplify-stockcodeweb-dev-205816",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:007575903924:stack/amplify-stockcodeweb-dev-205816/9da0c840-e8b4-11ec-95bb-0e1e56dee823",
+      "AmplifyAppId": "d2zomduaswu2b8"
+    },
+    "categories": {
+      "auth": {
+        "stockcodewebf8a12275": {}
+      }
+    }
+  }
+}

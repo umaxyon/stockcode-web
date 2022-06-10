@@ -1,0 +1,15 @@
+projects:
+  StockCodeApi:
+    schemaPath: src/graphql/schema.json
+    includes:
+      - src/graphql/**/*.ts
+    excludes:
+      - ./amplify/**
+    extensions:
+      amplify:
+        codeGenTarget: typescript
+        generatedFileName: src/API.ts
+        docsFilePath: src/graphql
+        region: ap-northeast-1
+        apiId: e2op4d7imfh6rogb7wajz6meeu
+        maxDepth: 2
