@@ -35,3 +35,17 @@ export const listStCodes = /* GraphQL */ `
     }
   }
 `;
+export const listCodes = /* GraphQL */ `
+  query ListStCodes(
+    $filter: TableStCodeFilterInput
+    $limit: Int
+    $nextToken: String
+  ) {
+    listStCodes(filter: $filter, limit: $limit, nextToken: $nextToken) {
+      items {
+        Code
+      }
+      nextToken
+    }
+  }
+`;
